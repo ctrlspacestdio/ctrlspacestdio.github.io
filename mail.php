@@ -25,7 +25,7 @@
         // Set the recipient email address.
         
         // FIXME: Update this to your desired email address.
-        $recipient = "";
+        $recipient = "bowok25@gmail.com";
 
         ////////////////////////////////////////////
         ////////////////////////////////////////////

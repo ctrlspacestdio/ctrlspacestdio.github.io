@@ -531,7 +531,8 @@ li {
 }
 
 .hero-content-area .hero-text>a,
-.load-more-btn {
+.load-more-btn,
+.about-us-content a {
     font-size: 12px;
     text-transform: uppercase;
     color: #ff6c00;
@@ -539,7 +540,8 @@ li {
 }
 
 .hero-content-area .hero-text>a:hover,
-.load-more-btn:hover {
+.load-more-btn:hover,
+.about-us-content a:hover {
     color: #000000;
 }
 
@@ -577,6 +579,13 @@ li {
 .feature-title>img {
     max-width: 35px;
     margin-right: 20px;
+}
+
+.feature-title i {
+    width: 35px;
+    margin-right: 20px;
+    font-size: 35px;
+
 }
 
 .feature-title {
@@ -1109,7 +1118,17 @@ li {
     border-bottom: 2px solid #ebebeb;
 }
 
-.static-content blockquote h5 {
+.fplus-about-us-area blockquote {
+    margin: 0;
+    text-align: center;
+    padding: 10px 0;
+    margin: 20px 0;
+    border-top: 2px solid #ebebeb;
+    border-bottom: 2px solid #ebebeb;
+}
+
+.static-content blockquote h5,
+.fplus-about-us-area blockquote h5 {
     margin: 30px 0;
     font-size: 18px;
     font-weight: 400;

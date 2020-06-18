@@ -718,14 +718,13 @@ li {
     background-color: #5b5454;
     position: relative;
     z-index: 1;
-    border-radius: 3px;
     margin-top: 80px;
     background-size: cover;
     background-position: center center;
 }
 
 .fplus-method-video:after {
-    background-color: rgba(255, 108, 0, 0.9);
+    background-color: #fff;
     left: 0;
     top: 0;
     width: 100%;

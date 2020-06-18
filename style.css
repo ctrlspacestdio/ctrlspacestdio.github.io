@@ -1139,3 +1139,8 @@ li {
     font-size: 18px;
     color: #959595 !important;
 }
+
+.fplus-clients-logo i {
+    color: #bcbdbd;
+    font-size: 4rem;
+}

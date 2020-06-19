@@ -123,6 +123,6 @@
 
     // :: 11.0 Preloader active code
     $(document).ready(function(){
-$(".preloader").fadeOut();
+$("#preloader").fadeOut();
 })
 })(jQuery);

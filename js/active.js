@@ -123,9 +123,9 @@
 
     // :: 11.0 Preloader active code
     $(document).ready(function () {
-        $('#preloader').fadeOut('slow', function () {
-            $(this).remove();
-        });
+        $(document).ready(function () {
+            $("#preloader").fadeOut();
+        })
     });
 
 })(jQuery);

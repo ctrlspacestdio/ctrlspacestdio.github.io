@@ -122,7 +122,9 @@
     var $window = $(window);
 
     // :: 11.0 Preloader active code
-    $(document).ready(function () {
-        $("#preloader").fadeOut();
-    })
+    $window.on('load', function () {
+        $(document).ready(function () {
+            $("#preloader").fadeOut();
+        })
+    });
 })(jQuery);

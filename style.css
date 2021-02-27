@@ -904,7 +904,7 @@ li {
 }
 
 .footer-nav-widget ul>li>a {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(255, 255, 255, 0.8) !important;
     font-size: 12px;
     text-transform: uppercase;
     letter-spacing: 2px;

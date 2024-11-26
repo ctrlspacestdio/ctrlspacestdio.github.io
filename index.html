@@ -18,7 +18,7 @@
     <!-- Fonts Google & Icon -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
     <script src="https://unpkg.com/feather-icons"></script>
@@ -26,7 +26,12 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <title>Ctrl_space.studio</title>
 </head>
-<body id="index"  data-bs-spy="scroll" data-bs-target="#navbar32" data-bs-offset="-10">
+<body id="index"  data-bs-spy="scroll" data-bs-target="#navbar32" data-bs-offset="-10">    
+    <!-- Preloader Start -->
+    <div id="preloader">
+        <div class="fplus-load"></div>
+        <img src="img/core-img/h-logo.png" alt="logo">
+    </div>
     <header class="header_area" id="display-mobile" style="display: none;">
         <div class="container">
             <div class="row">
@@ -65,8 +70,8 @@
                                         <a href="#index" class="nav-item nav-link active" aria-current="page" >Home</a>
                                         <a href="#about" class="nav-item nav-link" >About</a>
                                         <a href="#projects" class="nav-item nav-link" >Portfolio</a>
-                                        <a href="blog.html" class="nav-item nav-link" >Blog</a>
-                                        <a href="#team" class="nav-item nav-link" >Team</a>                                  
+                                        <a href="#blog" class="nav-item nav-link" >Design</a>
+                                        <a href="#team" class="nav-item nav-link" >Social</a>                                  
                                         <a href="#contact" class="nav-item nav-link" >Contact</a>                                   
                                     </div>
                                 </div>
@@ -120,9 +125,8 @@
                 <div class="col-12 col-md-6">
                     <div class="about-us-text" >
                         <h4>Pramudya Kristian Wibowo</h4>
-                        <p>Manusia biasa yang suka main komputer, kemudian jatuh hati pada web development. Karna
-                            kondisi, dipaksa bisa reparasi komputer dan laptop. Vector design untuk melampiaskan
-                            ide.
+                        <p><b>2010</b> Saya adalah seseorang yang awalnya menggunakan komputer untuk menggantikan ponsel.
+                            Perlahan, saya tertarik dan tertantang mendalami dunia web development (2014) . Keterbatasan memaksa saya belajar memperbaiki komputer, dari instalasi sistem operasi hingga perbaikan perangkat keras. Selain itu, saya menuangkan ide dan kreativitas melalui desain vektor.
                         </p></br>
                         <a href="#" class="view-portfolio-btn" id="scrollDown"> Semedi = Ngoding = Party</a><br>
                         <a href="#" class="view-portfolio-btn" id="scrollDown"> Programer Awlways Beginner</a>
@@ -142,16 +146,6 @@
                     <div class="wrap-icon lk">                            
                         <a target="_blank" class=" mx-auto" href="https://www.linkedin.com/in/pramudya-kristian-wibowo-4a6979141/">
                             <span class="fab fa-linkedin-in" aria-hidden="true"></span>
-                        </a>
-                    </div>
-                    <div class="wrap-icon pi">                            
-                        <a target="_blank" class=" mx-auto" href="https://id.pinterest.com/bowok250458/">
-                            <span class="fab fa-pinterest" aria-hidden="true"></span>
-                        </a>
-                    </div>
-                    <div class="wrap-icon gm">                            
-                        <a target="_blank" class=" mx-auto" href="mailto:ctrlspacestd@gmail.com">
-                            <span class="far fa-envelope" aria-hidden="true"></span>
                         </a>
                     </div>
                     <div class="wrap-icon wa">                            
@@ -175,8 +169,7 @@
                     <div class="feature-title d-flex justify-content-center">
                         <h5>Web Development</h5>
                     </div>
-                    <p class="text-center">Lebih senang disebut "Tukang Bikin Web". Berawal dari rasa penasaran dengan responsive design
-                        & tantangan dari perkembangan website, membuat web dev selalu seru untuk di-ulik.
+                    <p class="text-center">Berawal dari rasa penasaran dengan responsive design dan tantangan perkembangan teknologi web membuat dunia web development selalu menarik untuk saya eksplorasi.
                     </p>
                 </div>
             </div>
@@ -189,8 +182,7 @@
                     <div class="feature-title d-flex justify-content-center">
                         <h5>Vector Design</h5>
                     </div>
-                    <p class="text-center">2011 Pertama kali kenal Coreldraw. Mengabungkan object menjadi object baru itu kesan magic
-                        pertama dari komputerisasi. berlanjut sampai kenal Adobe Illustrator</p>
+                    <p class="text-center">Pertama kali mengenal CorelDRAW, saya terpukau dengan kemampuan menggabungkan objek menjadi bentuk baru (sebuah kesan "ajaib") dari komputerisasi. Dari sana, perjalanan saya berlanjut hingga mengenal Adobe Illustrator.</p>
                 </div>
             </div>
             <!-- Single Feature -->
@@ -202,8 +194,7 @@
                     <div class="feature-title d-flex justify-content-center">
                         <h5>Troubleshooting</h5>
                     </div>
-                    <p class="text-center">Rasa penasaran akan hardware komputer dan laptop, "2013" ambil kursus teknisi
-                        di stephen komputer jambi "sebelum berganti nama akakom jambi"</p>
+                    <p class="text-center">Background anak SMA yang buta terhadap Hardware Komputer, membawa saya mengikuti kursus teknisi di Stephen Komputer Jambi, Sekarang bernama Akakom Jambi. (2013) </p>
                 </div>
             </div>
         </div>
@@ -235,31 +226,94 @@
     <div class="container-fluid">
         <div class="row no-gutters fplus-portfolio">
             <!-- Single gallery Item Start -->
-            <div class="col-12 col-sm-6 col-md-4 single_gallery_item Website wow fadeInUp" data-wow-delay="0.2s">
-                <img src="img/portfolio-img/alga.png" alt="">
+            <div class="col-12 col-sm-6 col-md-4 single_gallery_item Website wow fadeInUp" data-wow-delay="1s">
+                <img src="img/portfolio-img/rslgm.png" alt="">
                 <div class="gallery-hover-overlay d-flex justify-content-between">
                     <div class="port-more-view">
-                        <a href="http://algapasada.co.id/"><img src="img/icons/plus.png" alt=""></a>
+                        <a href="#"><img
+                                src="img/icons/plus.png" alt=""></a>
                     </div>
                     <div class="port-hover-text">
-                        <a href="http://algapasada.co.id/">PT. alga pasada log</a>
-                        <h3>Website Expedisi Dengan Barcode Serta Memanfaatkan Main Camera Untuk Konfirmasi</h3>
+                        <a href="#">RS. langit Golden Medika Sarolangun</a>
+                        <h3>Portal Berita Sekaligus Company Profile + Back End Jadwal Dokter</h3>
                     </div>
                 </div>
             </div>
             <!-- Single gallery Item Start -->
-            <div class="col-12 col-sm-6 col-md-4 single_gallery_item graphic wow fadeInUp" data-wow-delay="1s">
-                <img src="img/portfolio-img/ss.png" alt="">
+            <div class="col-12 col-sm-6 col-md-4 single_gallery_item Website wow fadeInUp" data-wow-delay="0.2s">
+                <img src="img/portfolio-img/asunah.png" alt="">
                 <div class="gallery-hover-overlay d-flex justify-content-between">
                     <div class="port-more-view">
-                        <a
-                            href="https://www.shutterstock.com/g/Ctrlspacestdio?rid=223195565&utm_medium=email&utm_source=ctrbreferral-link"><img
-                                src="img/icons/plus.png" alt=""></a>
+                        <a href="#"><img src="img/icons/plus.png" alt=""></a>
+                    </div>
+                    <div class="port-hover-text">                        
+                        <a href="#">SMP IT IHYA AS-SUNNAH</a>
+                        <h3>Company Profile & Portal Berita Untuk SMP IT IHYA AS-SUNNAH</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="col-12 col-sm-6 col-md-4 single_gallery_item Website wow fadeInUp" data-wow-delay="0.2s">
+                <img src="img/portfolio-img/csms.png" alt="">
+                <div class="gallery-hover-overlay d-flex justify-content-between">
+                    <div class="port-more-view">
+                        <a href="#"><img src="img/icons/plus.png" alt=""></a>
+                    </div>
+                    <div class="port-hover-text">                        
+                        <a href="#">Back End Developer</a>
+                        <h3>Extend Dholpin RS System, Bridging BPJS & SATUSEHAT</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="col-12 col-sm-6 col-md-4 single_gallery_item graphic wow fadeInUp" data-wow-delay="0.4s">
+                <img src="img/portfolio-img/jr.png" alt="">
+                <div class="gallery-hover-overlay d-flex justify-content-between">
+                    <div class="port-more-view">
+                        <a href="#"><img src="img/icons/plus.png" alt=""></a>
                     </div>
                     <div class="port-hover-text">
-                        <a
-                            href="https://www.shutterstock.com/g/Ctrlspacestdio?rid=223195565&utm_medium=email&utm_source=ctrbreferral-link&sort=newest">Shutterstock</a>
-                        <h3>Contributor Vector Di Shutterstock</h3>
+                        <a href="#">JR Tech Enginer</a>
+                        <h3>Logo Builder</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="col-12 col-sm-6 col-md-4 single_gallery_item graphic wow fadeInUp" data-wow-delay="0.4s">
+                <img src="img/portfolio-img/singkut-sinergi.png" alt="">
+                <div class="gallery-hover-overlay d-flex justify-content-between">
+                    <div class="port-more-view">
+                        <a href="#"><img src="img/icons/plus.png" alt=""></a>
+                    </div>
+                    <div class="port-hover-text">
+                        <a href="#">PT. Singkut Sinergi Nawasena</a>
+                        <h3>Logo Builder</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="col-12 col-sm-6 col-md-4 single_gallery_item Website wow fadeInUp" data-wow-delay="0.2s">
+                <img src="img/portfolio-img/ysga.png" alt="">
+                <div class="gallery-hover-overlay d-flex justify-content-between">
+                    <div class="port-more-view">
+                        <a href="#"><img src="img/icons/plus.png" alt=""></a>
+                    </div>
+                    <div class="port-hover-text">
+                        <a href="#">Yayasan Sunan Giri Albajury</a>
+                        <h3>Company Profile & Portal Berita</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="col-12 col-sm-6 col-md-4 single_gallery_item Website wow fadeInUp" data-wow-delay="0.2s">
+                <img src="img/portfolio-img/alga.png" alt="">
+                <div class="gallery-hover-overlay d-flex justify-content-between">
+                    <div class="port-more-view">
+                        <a href="#"><img src="img/icons/plus.png" alt=""></a>
+                    </div>
+                    <div class="port-hover-text">
+                        <a href="#">PT. alga pasada log</a>
+                        <h3>Website Expedisi Dengan Barcode Serta Memanfaatkan Main Camera Untuk Konfirmasi</h3>
                     </div>
                 </div>
             </div>
@@ -268,26 +322,13 @@
                 <img src="img/portfolio-img/chatib.png" alt="">
                 <div class="gallery-hover-overlay d-flex justify-content-between">
                     <div class="port-more-view">
-                        <a href="https://chatibquzwain.co.id/registrasi-online/login.php"><img
+                        <a href="#"><img
                                 src="img/icons/plus.png" alt=""></a>
                     </div>
                     <div class="port-hover-text">
-                        <a href="https://chatibquzwain.co.id/registrasi-online/login.php">RSUD PROF.DR.H.M. CHATIB
+                        <a href="#">RSUD PROF.DR.H.M. CHATIB
                             QUZWAIN</a>
                         <h3>Registrasi Antrian Online</h3>
-                    </div>
-                </div>
-            </div>
-            <!-- Single gallery Item Start -->
-            <div class="col-12 col-sm-6 col-md-4 single_gallery_item graphic wow fadeInUp" data-wow-delay="0.4s">
-                <img src="img/portfolio-img/xk.png" alt="">
-                <div class="gallery-hover-overlay d-flex justify-content-between">
-                    <div class="port-more-view">
-                        <a href="https://xkomo.com/"><img src="img/icons/plus.png" alt=""></a>
-                    </div>
-                    <div class="port-hover-text">
-                        <a href="https://xkomo.com/">Xkomodotcom</a>
-                        <h3>Logo Builder</h3>
                     </div>
                 </div>
             </div>
@@ -299,7 +340,7 @@
                         <a href="#"><img src="img/icons/plus.png" alt=""></a>
                     </div>
                     <div class="port-hover-text">
-                        <a href="https://www.youtube.com/watch?v=YfLAFqnWQr0&ab_channel=Crtlspace">Field Covid 19</a>
+                        <a href="https://www.youtube.com/watch?v=YfLAFqnWQr0&ab_channel=Crtlspace">Field</a>
                         <h3>website yang ditujukan untuk menangulangi dublikasi penerimaan bantuan terkait covid 19
                             <p>Code by : code -pramudya kristian wibowo -ctrlspacestd@gmail.com
                                 plugin chart js, date selasa 17 juni 2020</p>
@@ -319,6 +360,32 @@
                         <h3>Gui Interface, Back End Development Untuk Blog Post (Ckeditor & CKfinder)</h3>
                     </div>
                 </div>
+            </div> 
+            <!-- Single gallery Item Start -->
+            <div class="col-12 col-sm-6 col-md-4 single_gallery_item graphic wow fadeInUp" data-wow-delay="0.4s">
+                <img src="img/portfolio-img/xk.png" alt="">
+                <div class="gallery-hover-overlay d-flex justify-content-between">
+                    <div class="port-more-view">
+                        <a href="#"><img src="img/icons/plus.png" alt=""></a>
+                    </div>
+                    <div class="port-hover-text">
+                        <a href="#">Xkomodotcom</a>
+                        <h3>Logo Builder</h3>
+                    </div>
+                </div>
+            </div>
+            <!-- Single gallery Item Start -->
+            <div class="col-12 col-sm-6 col-md-4 single_gallery_item graphic wow fadeInUp" data-wow-delay="0.4s">
+                <img src="img/portfolio-img/barber-sastra.png" alt="">
+                <div class="gallery-hover-overlay d-flex justify-content-between">
+                    <div class="port-more-view">
+                        <a href="#"><img src="img/icons/plus.png" alt=""></a>
+                    </div>
+                    <div class="port-hover-text">
+                        <a href="#">Sastra Barbershop</a>
+                        <h3>Logo Builder</h3>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -335,7 +402,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="section-heading text-center">
-                    <h4>Last Project</h4>
+                    <h4>Certificate</h4>
                     <div class="section-heading-line"></div>
                 </div>
             </div>
@@ -362,7 +429,7 @@
         </div>
     </div>
 </div>
-<section class="fplus-clients-area bg-gray section-padding-120" id="clients">
+<section class="fplus-clients-area bg-gray section-padding-120-0" id="clients">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -452,7 +519,8 @@
 <!-- END PORTFOLIO -->
 
 <!-- BLOG -->
-<div class="fplus-method-area bg-gray pt-5" id="blog">
+
+<div class="fplus-method-area bg-gray section-padding-120-0" id="blog">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -464,7 +532,7 @@
         </div>
     </div>
 </div>
-<section id="news" class="section-padding-120">    
+<section class="section-padding-120" id="news">    
     <div class="container">
         <div class="container-fluid">
             <div class="body">

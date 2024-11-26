@@ -8,8 +8,8 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
     <!-- Owl CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"> -->
     <!-- baguetteBox CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
     <!-- My CSS -->
@@ -32,7 +32,7 @@
         <div class="fplus-load"></div>
         <img src="img/core-img/h-logo.png" alt="logo">
     </div>
-    <header class="header_area" id="display-mobile" style="display: none;">
+    <header class="header_area" id="display-mobile">
         <div class="container">
             <div class="row">
                 <div class="col-12 d-flex">
@@ -51,8 +51,62 @@
             </div>
         </div>
     </header>
+        <!-- ****** Menu Area Start ****** -->
+        <div class="fplus-menu-area" id="display-mobile">
+            <!-- Menu -->
+            <div class="fplus-main-menu h-100 d-flex align-items-center">
+                <nav class="navbar navbar-expand-lg">
+                    <div class="" id="fplus-nav">
+                        <ul class="navbar-nav" id="fplusNav">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#index" >Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#projects">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#method">Certificate</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#clients">Soft Skill</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#team">Social</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <!-- Header Social Icon -->
+            <div class="header-social-info d-flex align-items-center justify-content-end">
+                <div class="h-social-icon">
+                    <a target="_blank" href="https://www.facebook.com/cristian.wibowo.77/"><i class="fab fa-facebook-square"
+                            aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://www.instagram.com/ctrl_space.studio/"><i class="fab fa-instagram"
+                            aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://www.linkedin.com/in/cristian-wibowo-b22185233/"><i
+                            class="fab fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a target="_blank" href="https://id.pinterest.com/bowok250458/"><i class="fab fa-pinterest"
+                            aria-hidden="true"></i></a>
+                    <a target="_blank" href="mailto:ctrlspacestd@gmail.com"><i class="far fa-envelope-open"
+                            aria-hidden="true"></i></a>
+                    <a target="_blank" target="_blank" href="https://wa.me/6285212582302"><i
+                            class="fab fa-whatsapp" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- ****** Menu Area End ****** -->
 
-    <header id="header" class="navbar-light bg-white sticky-top">
+    <header id="header" class="navbar-light bg-white sticky-top"  id="display-dekstop">
         <div class="header-navbar">
             <div class="container-fluid">
                 <div class="row">
@@ -70,6 +124,8 @@
                                         <a href="#index" class="nav-item nav-link active" aria-current="page" >Home</a>
                                         <a href="#about" class="nav-item nav-link" >About</a>
                                         <a href="#projects" class="nav-item nav-link" >Portfolio</a>
+                                        <a href="#method" class="nav-item nav-link" >Certificate</a>
+                                        <a href="#clients" class="nav-item nav-link" >Soft Skill</a>
                                         <a href="#blog" class="nav-item nav-link" >Design</a>
                                         <a href="#team" class="nav-item nav-link" >Social</a>                                  
                                         <a href="#contact" class="nav-item nav-link" >Contact</a>                                   
@@ -83,12 +139,17 @@
         </div>
     </header>
 
+
+
+
+
+
 <!-- HOME -->
-<section id="home" class="bg-images"  style="background-image: url(img/background/bg5.jpg); background-size: cover !important;">
+<section id="home" class="bg-images"  style="background-image: url(img/background/bg5.webp); background-size: cover !important;">
     <div class="wrap">
         <div class="container d-flex justify-content-center">
             <div id="Boxowl" class="row align-content-center justify-content-center">
-                <img src="img/site/web-logo.png" alt="">
+                <img src="img/site/web-logo.webp" alt="">
                     <h1 class="text-center text-white">CTRL SPACE STUDIO</h1>
                     <h6 class="text-center text-white">Do Something From Nothing</h6>
                     <div class="mt-5 d-flex justify-content-center ">
@@ -103,7 +164,7 @@
 <!-- END HOME -->
 
 <!-- about -->
-<section class="fplus-about-us-area bg-gray section-padding-120-0" id="about">
+<section class="fplus-about-us-area bg-gray  section-padding-120-0" id="about">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -119,7 +180,7 @@
             <div class="row no-gutters align-items-center">
                 <div class="col-12 col-md-5">
                     <div class="about-us-thumb">
-                        <img src="img/site/fix1-min.jpg" alt="">
+                        <img src="img/site/me.webp" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-md-6">
@@ -144,12 +205,12 @@
                         </a>
                     </div>
                     <div class="wrap-icon lk">                            
-                        <a target="_blank" class=" mx-auto" href="https://www.linkedin.com/in/pramudya-kristian-wibowo-4a6979141/">
+                        <a target="_blank" class=" mx-auto" href="https://www.linkedin.com/in/cristian-wibowo-b22185233/">
                             <span class="fab fa-linkedin-in" aria-hidden="true"></span>
                         </a>
                     </div>
                     <div class="wrap-icon wa">                            
-                        <a target="_blank" class=" mx-auto" href="https://api.whatsapp.com/send?phone=+6285212582302">
+                        <a target="_blank" class=" mx-auto" href="https://wa.me/6285212582302">
                             <span class="fab fa-whatsapp" aria-hidden="true"></span>
                         </a>
                     </div>
@@ -164,7 +225,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="fplus-single-feature wow fadeInUp" data-wow-delay="0.3s">
                     <div class="feature-image d-flex justify-content-center">
-                        <img src="img/site/web.jpg">
+                        <img src="img/site/web.webp">
                     </div>
                     <div class="feature-title d-flex justify-content-center">
                         <h5>Web Development</h5>
@@ -177,7 +238,7 @@
             <div class="col-12 col-md-6 col-lg-4">
                 <div class="fplus-single-feature wow fadeInUp" data-wow-delay="0.6s">
                     <div class="feature-image d-flex justify-content-center">
-                        <img src="img/site/vector.jpg">
+                        <img src="img/site/vector.webp">
                     </div>
                     <div class="feature-title d-flex justify-content-center">
                         <h5>Vector Design</h5>
@@ -189,7 +250,7 @@
             <div class="col-12 col-lg-4">
                 <div class="fplus-single-feature wow fadeInUp" data-wow-delay="0.7s">
                     <div class="feature-image d-flex justify-content-center">
-                        <img src="img/site/repair.jpg">
+                        <img src="img/site/repair.webp">
                     </div>
                     <div class="feature-title d-flex justify-content-center">
                         <h5>Troubleshooting</h5>
@@ -203,10 +264,10 @@
 <!-- END about -->
 
 <!-- PORTFOLIO -->
-<section class="fplus-projects-area bg-gray section-padding-0-120 " id="projects">
+<section class="fplus-projects-area bg-gray section-padding-120-0 " id="projects">
     <div class="container">
         <div class="row">
-            <div class="col-12 section-padding-120-0">
+            <div class="col-12">
                 <div class="section-heading text-center">
                     <h4>Portfolio</h4>
                     <div class="section-heading-line"></div>
@@ -227,7 +288,7 @@
         <div class="row no-gutters fplus-portfolio">
             <!-- Single gallery Item Start -->
             <div class="col-12 col-sm-6 col-md-4 single_gallery_item Website wow fadeInUp" data-wow-delay="1s">
-                <img src="img/portfolio-img/rslgm.png" alt="">
+                <img src="img/portfolio-img/rslgm.webp" alt="">
                 <div class="gallery-hover-overlay d-flex justify-content-between">
                     <div class="port-more-view">
                         <a href="#"><img
@@ -241,7 +302,7 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="col-12 col-sm-6 col-md-4 single_gallery_item Website wow fadeInUp" data-wow-delay="0.2s">
-                <img src="img/portfolio-img/asunah.png" alt="">
+                <img src="img/portfolio-img/asunah.webp" alt="">
                 <div class="gallery-hover-overlay d-flex justify-content-between">
                     <div class="port-more-view">
                         <a href="#"><img src="img/icons/plus.png" alt=""></a>
@@ -254,7 +315,7 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="col-12 col-sm-6 col-md-4 single_gallery_item Website wow fadeInUp" data-wow-delay="0.2s">
-                <img src="img/portfolio-img/csms.png" alt="">
+                <img src="img/portfolio-img/csms.webp" alt="">
                 <div class="gallery-hover-overlay d-flex justify-content-between">
                     <div class="port-more-view">
                         <a href="#"><img src="img/icons/plus.png" alt=""></a>
@@ -267,7 +328,7 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="col-12 col-sm-6 col-md-4 single_gallery_item graphic wow fadeInUp" data-wow-delay="0.4s">
-                <img src="img/portfolio-img/jr.png" alt="">
+                <img src="img/portfolio-img/jr.webp" alt="">
                 <div class="gallery-hover-overlay d-flex justify-content-between">
                     <div class="port-more-view">
                         <a href="#"><img src="img/icons/plus.png" alt=""></a>
@@ -280,7 +341,7 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="col-12 col-sm-6 col-md-4 single_gallery_item graphic wow fadeInUp" data-wow-delay="0.4s">
-                <img src="img/portfolio-img/singkut-sinergi.png" alt="">
+                <img src="img/portfolio-img/singkut-sinergi.webp" alt="">
                 <div class="gallery-hover-overlay d-flex justify-content-between">
                     <div class="port-more-view">
                         <a href="#"><img src="img/icons/plus.png" alt=""></a>
@@ -293,7 +354,7 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="col-12 col-sm-6 col-md-4 single_gallery_item Website wow fadeInUp" data-wow-delay="0.2s">
-                <img src="img/portfolio-img/ysga.png" alt="">
+                <img src="img/portfolio-img/ysga.webp" alt="">
                 <div class="gallery-hover-overlay d-flex justify-content-between">
                     <div class="port-more-view">
                         <a href="#"><img src="img/icons/plus.png" alt=""></a>
@@ -306,7 +367,7 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="col-12 col-sm-6 col-md-4 single_gallery_item Website wow fadeInUp" data-wow-delay="0.2s">
-                <img src="img/portfolio-img/alga.png" alt="">
+                <img src="img/portfolio-img/alga.webp" alt="">
                 <div class="gallery-hover-overlay d-flex justify-content-between">
                     <div class="port-more-view">
                         <a href="#"><img src="img/icons/plus.png" alt=""></a>
@@ -319,7 +380,7 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="col-12 col-sm-6 col-md-4 single_gallery_item Website wow fadeInUp" data-wow-delay="1.2s">
-                <img src="img/portfolio-img/chatib.png" alt="">
+                <img src="img/portfolio-img/chatib.webp" alt="">
                 <div class="gallery-hover-overlay d-flex justify-content-between">
                     <div class="port-more-view">
                         <a href="#"><img
@@ -334,7 +395,7 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="col-12 col-sm-6 col-md-4 single_gallery_item Website wow fadeInUp" data-wow-delay="0.8s">
-                <img src="img/portfolio-img/covid.jpg" alt="">
+                <img src="img/portfolio-img/covid.webp" alt="">
                 <div class="gallery-hover-overlay d-flex justify-content-between">
                     <div class="port-more-view">
                         <a href="#"><img src="img/icons/plus.png" alt=""></a>
@@ -350,7 +411,7 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="col-12 col-sm-6 col-md-4 single_gallery_item Website wow fadeInUp" data-wow-delay="0.6s">
-                <img src="img/portfolio-img/kominfo.png" alt="">
+                <img src="img/portfolio-img/kominfo.webp" alt="">
                 <div class="gallery-hover-overlay d-flex justify-content-between">
                     <div class="port-more-view">
                         <a href="single-portfolio.html"><img src="img/icons/plus.png" alt=""></a>
@@ -363,7 +424,7 @@
             </div> 
             <!-- Single gallery Item Start -->
             <div class="col-12 col-sm-6 col-md-4 single_gallery_item graphic wow fadeInUp" data-wow-delay="0.4s">
-                <img src="img/portfolio-img/xk.png" alt="">
+                <img src="img/portfolio-img/xk.webp" alt="">
                 <div class="gallery-hover-overlay d-flex justify-content-between">
                     <div class="port-more-view">
                         <a href="#"><img src="img/icons/plus.png" alt=""></a>
@@ -376,7 +437,7 @@
             </div>
             <!-- Single gallery Item Start -->
             <div class="col-12 col-sm-6 col-md-4 single_gallery_item graphic wow fadeInUp" data-wow-delay="0.4s">
-                <img src="img/portfolio-img/barber-sastra.png" alt="">
+                <img src="img/portfolio-img/barber-sastra.webp" alt="">
                 <div class="gallery-hover-overlay d-flex justify-content-between">
                     <div class="port-more-view">
                         <a href="#"><img src="img/icons/plus.png" alt=""></a>
@@ -397,7 +458,7 @@
     </div>
 </section>
 
-<div class="fplus-method-area bg-gray" id="method">
+<div class="fplus-method-area bg-gray section-padding-120-0" id="method">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -409,26 +470,55 @@
         </div>
     </div>
 
-    <div class="fplus-method-content bg-white text-center">
+    <div class="fplus-method-content bg-white text-center ">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-12 col-md-8">
                     <div class="fplus-method-text">
-                        <p>Website Reservasi Hotel</p>
-                        <p>Code by : pramudya kristian wibowo | ctrlspacestd@gmail.com</p>
-                        <p>Date : January 2021 | Boostrapt, Mysql, PHP 7, Midtrans</p>
-                        <p><a href="http://demo.singkutprojects.my.id/motel" target="_blank" class="view-portfolio-btn text-primary" id="scrollDown">Demo </a></p>
+                        <p>Beberapa Sertifikat Pelatihan Yang Saya Peroleh Selama Masa Covid-19</p>
+                        <p>Dokument Lengkap dapat Diunduh Pada Link Berikut</p>
+                        <p class="mt-4"><a href="https://drive.google.com/drive/folders/1v1XqdAiZowyhjQeCHYZOPAwKeKpQbneb?usp=sharing" target="_blank" class="view-portfolio-btn text-primary" id="scrollDown">Google Drive</a></p>
                     </div>
                 </div>
-                <div class="col-12 col-md-10">
-                    <div class="fplus-method-video wow fadeInUp">                         
-                        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/fYcmdm9jm4M" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                
+                <div class="fplus-projects-area pt-5">    
+                    <div class="row no-gutters fplus-portfolio">
+
+                        <div class="col-xl-6 col-md-12 pe-xl-0 single_gallery_item Website wow fadeInUp" data-wow-delay="1s">
+                            <img src="img/certificate/sertifikat1.webp" alt="">
+                            <div class="gallery-hover-overlay d-flex justify-content-between">
+                                <div class="port-more-view">
+                                    <a href="#"><img
+                                            src="img/icons/plus.png" alt=""></a>
+                                </div>
+                                <div class="port-hover-text">
+                                    <a href="#">Maret 2021</a>
+                                    <h3>Belajar Membuat Website Untuk Online Shopping (E-Commerce) Menggunakan Wordpress</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-md-12 pe-xl-0 single_gallery_item Website wow fadeInUp" data-wow-delay="1s">
+                            <img src="img/certificate/sertifikat2.webp" alt="">
+                            <div class="gallery-hover-overlay d-flex justify-content-between">
+                                <div class="port-more-view">
+                                    <a href="#"><img
+                                            src="img/icons/plus.png" alt=""></a>
+                                </div>
+                                <div class="port-hover-text">
+                                    <a href="#">April 2021</a>
+                                    <h3>Mendesign Web dengan Jquery</h3>
+                                </div>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
 </div>
+
 <section class="fplus-clients-area bg-gray section-padding-120-0" id="clients">
     <div class="container">
         <div class="row">
@@ -519,13 +609,12 @@
 <!-- END PORTFOLIO -->
 
 <!-- BLOG -->
-
 <div class="fplus-method-area bg-gray section-padding-120-0" id="blog">
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <div class="section-heading text-center">
-                    <h4>last post</h4>
+                    <h4>Design Portfolio</h4>
                     <div class="section-heading-line"></div>
                 </div>
             </div>
@@ -538,26 +627,26 @@
             <div class="body">
                 <div class="row px-0 mb-5">
                     <div class="col-md-6">
-                        <a href="post.html">
-                            <div class="bg-images zoom-hover" style="background: url(img/blog/news1.jpg); height: 450px;"></div>
+                        <a href="https://creativemarket.com/Crtlspace" target="_blank">
+                            <div class="bg-images zoom-hover" style="background: url(img/blog/cm.webp); height: 450px;"></div>
                         </a>
                     </div>
                     <div class="col-md-6">
                         <div class="row align-content-center" style="height: 450px;">
                             <div class="content d-flex justify-content-center">
                                 <div class="date">
-                                    <h3>26</h3>
-                                    <h6>Dec 2021</h6>
+                                    <h3>01</h3>
+                                    <h6>Contributor</h6>
                                 </div>
                                 <div class="cont">
                                     <div class="info">
                                         <h6>
-                                            <a href="#link">Jambi</a> / <a href="#link" class="tags">Indonesia</a>
+                                            <a href="#link">Singkut</a> / <a href="#link" class="tags">Indonesia</a>
                                         </h6>
                                     </div>
-                                    <h2><a href="post.html">Work Efficiency With Dual Monitor</a></h2>
+                                    <h2><a href="https://creativemarket.com/Crtlspace" target="_blank">Contributor Design At Creative Market Labs Inc</a></h2>
                                     <h6>
-                                        <a href="post.html" class="more"><span>See More</span></a>
+                                        <a href="https://creativemarket.com/Crtlspace" target="_blank" class="more"><span>See More</span></a>
                                     </h6>
                                 </div>
                             </div>
@@ -570,24 +659,24 @@
                         <div class="row align-content-center" style="height: 450px;">
                             <div class="content d-flex justify-content-center">
                                 <div class="date">
-                                    <h3>08</h3>
-                                    <h6>Dec 2021</h6>
+                                    <h3>02</h3>
+                                    <h6>Contributor</h6>
                                 </div>
                                 <div class="cont">
                                     <div class="info">
-                                        <h6><a href="#link">Jambi</a> / <a href="#link" class="tags">Indonesia</a></h6>
+                                        <h6><a href="#link">Singkut</a> / <a href="#link" class="tags">Indonesia</a></h6>
                                     </div>
-                                    <h2><a href="post.html">Mechanical Is Perfect Keyboard For Coder</a></h2>
+                                    <h2><a href="https://stock.adobe.com/contributor/209101886/ctrl_space.stdio" target="_blank">Contributor Design At Adobe Canada Services Corporation</a></h2>
                                     <h6>
-                                        <a href="post.html" class="more"><span>See More</span></a>
+                                        <a href="https://stock.adobe.com/contributor/209101886/ctrl_space.stdio" target="_blank" class="more"><span>See More</span></a>
                                     </h6>
                                 </div>
                             </div>
                         </div>
                     </div>                    
                     <div class="col-md-6 xs-order-1">
-                        <a href="post.html">
-                        <div class="bg-images zoom-hover" style="background: url(img/blog/news2.jpg); height: 450px;"></div>
+                        <a href="https://stock.adobe.com/contributor/209101886/ctrl_space.stdio" target="_blank">
+                        <div class="bg-images zoom-hover" style="background: url(img/blog/adstock.webp); height: 450px;"></div>
                         </a>
                     </div>
                 </div>                
@@ -595,24 +684,24 @@
 
                 <div class="row px-0">
                     <div class="col-md-6">                        
-                        <a href="post.html">
-                        <div class="bg-images zoom-hover" style="background: url(img/blog/news3.jpg); height: 450px;"></div>
+                        <a href="#">
+                        <div class="bg-images zoom-hover" style="background: url(img/blog/fp.webp); height: 450px;"></div>
                         </a>
                     </div>
                     <div class="col-md-6">
                         <div class="row align-content-center" style="height: 450px;">
                             <div class="content d-flex justify-content-center">
                                 <div class="date">
-                                    <h3>14</h3>
-                                    <h6>Nov 2021</h6>
+                                    <h3>03</h3>
+                                    <h6>Contributor</h6>
                                 </div>
                                 <div class="cont">
                                     <div class="info">
                                         <h6>
-                                            <a href="#link">Jambi</a> / <a href="#link" class="tags">Indonesia</a>
+                                            <a href="#link">Singkut</a> / <a href="#link" class="tags">Indonesia</a>
                                         </h6>
                                     </div>
-                                    <h2><a href="post.html">Learning Never Ending</a></h2>
+                                    <h2><a href="#">Contributor Design At Freepik Company, S.L</a></h2>
                                     <h6>
                                         <a href="blog.html" class="more"><span>See More</span></a>
                                     </h6>
@@ -634,7 +723,7 @@
         <div class="row">
             <div class="col-12">
                 <div class="section-heading text-center">
-                    <h4>our team</h4>
+                    <h4>our Media</h4>
                     <div class="section-heading-line"></div>
                 </div>
             </div>
@@ -643,51 +732,57 @@
         <div class="row pb-4">
             <!-- Single Blog Post Area -->
             <div class="col-12 col-md-6 col-lg-4">
-                <div class="fplus-single-blog-area wow fadeInUp" data-wow-delay="0.5s">
-                    <!-- Blog Thumbnail -->
-                    <img src="img/portfolio-img/zh-01.jpg" alt="">
-                    <!-- Blog Content -->
-                    <div class="fplus-blog-content">
-                        <h5>Full Stack Development</h5>
-                        <div class="post-meta-data d-flex align-items-center">
-                            <div class="post-author-name-date">
-                                <h6>zhardsoft.com</h6>
+                <a href="https://id.pinterest.com/bowok250458/" target="_blank">
+                    <div class="fplus-single-blog-area wow fadeInUp" data-wow-delay="0.5s">
+                        <!-- Blog Thumbnail -->
+                        <img src="img/media/pinterest.webp" alt="">
+                        <!-- Blog Content -->
+                        <div class="fplus-blog-content">
+                            <h5>Ctrl_space.studio</h5>
+                            <div class="post-meta-data d-flex align-items-center">
+                                <div class="post-author-name-date">
+                                    <h6>Pinterest</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <!-- Single Blog Post Area -->
             <div class="col-12 col-md-6 col-lg-4">
-                <div class="fplus-single-blog-area wow fadeInUp" data-wow-delay="0.5s">
-                    <!-- Blog Thumbnail -->
-                    <img src="img/portfolio-img/xk-01.jpg" alt="">
-                    <!-- Blog Content -->
-                    <div class="fplus-blog-content">
-                        <h5>Management And Marketing</h5>
-                        <div class="post-meta-data d-flex align-items-center">
-                            <div class="post-author-name-date">
-                                <h6>xkomo.com</h6>
+                <a href="https://www.behance.net/ctrl_spacestdio" target="_blank">
+                    <div class="fplus-single-blog-area wow fadeInUp" data-wow-delay="0.5s">
+                        <!-- Blog Thumbnail -->
+                        <img src="img/media/behance.webp" alt="">
+                        <!-- Blog Content -->
+                        <div class="fplus-blog-content">
+                            <h5>Ctrl Space Studio</h5>
+                            <div class="post-meta-data d-flex align-items-center">
+                                <div class="post-author-name-date">
+                                    <h6>Behance</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
             <!-- Single Blog Post Area -->
             <div class="col-12 col-md-6 col-lg-4">
-                <div class="fplus-single-blog-area wow fadeInUp" data-wow-delay="0.5s">
-                    <!-- Blog Thumbnail -->
-                    <img src="img/portfolio-img/you-01.jpg" alt="">
-                    <!-- Blog Content -->
-                    <div class="fplus-blog-content">
-                        <h5>Maybe You</h5>
-                        <div class="post-meta-data d-flex align-items-center">
-                            <div class="post-author-name-date">
-                                <h6>Send Your Portfolio</h6>
+                <a href="https://www.fiverr.com/crtlspace" target="_blank">
+                    <div class="fplus-single-blog-area wow fadeInUp" data-wow-delay="0.5s">
+                        <!-- Blog Thumbnail -->
+                        <img src="img/media/fiverr.webp" alt="">
+                        <!-- Blog Content -->
+                        <div class="fplus-blog-content">
+                            <h5>Crtl Space.std</h5>
+                            <div class="post-meta-data d-flex align-items-center">
+                                <div class="post-author-name-date">
+                                    <h6>Behance</h6>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
+                </a>
             </div>
         </div>
     </div>
@@ -781,7 +876,7 @@
         <div class="row" id="fplusNav">
                 <div class="col-12 col-md-3">
                     <div class="about-us-widget">
-                        <img src="img/site/des 2020 white.png" alt="">
+                        <img src="img/site/des 2020 white.webp" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-md-3">
@@ -791,7 +886,8 @@
                                 <li><a href="#index">Home</a></li>
                                 <li><a href="#about">About</a></li>
                                 <li><a href="#projects">Portfolio</a></li>
-                                <li><a href="#blog">Blog</a></li>
+                                <li><a href="#method">Certificate</a></li>
+                                <li><a href="#clients">Soft Skill</a></li>
                             </ul>
                         </nav>
                     </div>
@@ -800,7 +896,8 @@
                     <div class="footer-nav-widget">
                         <nav>
                             <ul>
-                                <li><a href="#team">Team</a></li>
+                                <li><a href="#blog">Design</a></li>
+                                <li><a href="#team">Social</a></li>
                                 <li><a href="#contact">Contact</a></li>
                             </ul>
                         </nav>
@@ -815,13 +912,13 @@
                                 aria-hidden="true"></i></a>
                         <a target="_blank" href="https://www.instagram.com/ctrl_space.studio/"><i
                                 class="fab fa-instagram" aria-hidden="true"></i></a>
-                        <a target="_blank" href="https://www.linkedin.com/in/pramudya-kristian-wibowo-4a6979141/">
+                        <a target="_blank" href="https://www.linkedin.com/in/cristian-wibowo-b22185233/">
                             <i class="fab fa-linkedin-in" aria-hidden="true"></i></a>
                         <a target="_blank" href="https://id.pinterest.com/bowok250458/"><i class="fab fa-pinterest"
                                 aria-hidden="true"></i></a>
                         <a target="_blank" href="mailto:ctrlspacestd@gmail.com"><i class="far fa-envelope"
                                 aria-hidden="true"></i></a>
-                        <a target="_blank" target="_blank" href="https://api.whatsapp.com/send?phone=+6285212582302"><i
+                        <a target="_blank" target="_blank" href="https://wa.me/6285212582302"><i
                                 class="fab fa-whatsapp" aria-hidden="true"></i></a>
                     </div>
                 </div>

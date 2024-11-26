@@ -1733,3 +1733,22 @@ li {
     color: #bcbdbd;
     font-size: 4rem;
 }
+
+@media (max-width: 500px) {
+    #display-mobile{
+        visibility: visible !important;
+    }
+    #header{
+        display: none !important;
+    }
+
+}
+@media (min-width: 501px) {
+    #display-mobile{
+        visibility: hidden !important;
+    }
+    #header{
+        visibility: visible !important;
+    }
+
+}
